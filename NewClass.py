@@ -451,7 +451,17 @@ class Tracer:
             self.loss_smell_box.deselect()
             self.loss_taste_box.deselect()
             self.NOTA_box.deselect()
-            
+            self.fever_entry.delete(0, "end")
+            self.cough_entry.delete(0, "end")
+            self.cold_entry.delete(0, "end")
+            self.headache_entry.delete(0, "end")
+            self.sore_throat_entry.delete(0, "end")
+            self.muscle_pain_entry.delete(0, "end")
+            self.shortness_breath_entry.delete(0, "end")
+            self.fatigue_entry.delete(0, "end")
+            self.loss_taste_entry.delete(0, "end")
+            self.loss_smell_entry.delete(0, "end")
+            self.NOTA_entry.delete(0, "end")
                         
     #create save/add button 
     def button_add(self):
